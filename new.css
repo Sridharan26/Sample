@@ -1,0 +1,31 @@
+/* selectors */
+
+/* 1.Universal Selectors */
+/* *{
+background-color: rgb(153, 127, 255);
+} */
+/* class selectors */
+.para3{
+  background-color: aquamarine;  
+}
+/* id selectors */
+#para2{
+    background-color: brown;
+}
+/* pesudo selector */
+.para1 {
+    background-color: coral;
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para2{
+  background-clip: padding-box;
+}
+h5{
+  color: blue;
+}
+div > p {
+  
+  color: brown;
+}

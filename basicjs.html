@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 35px;">Greatest Number task</h1>
+    <div class="container mt-4 justify-content-center">
+        <div class="row mt-4">
+            <div>Greatest Number</div>
+            <div class="col"><input type="text" id="input1" placeholder="enter the first number"></div>
+            <div class="col"><input type="text" id="input2" placeholder="ente the second number"></div>
+            <div class="col"><button type="button" class="btn-primary" onclick="GreaterNumber()">Check greatest</button></div>
+            <div class="row mt-4"><b><div id="displayResult"></div></b>
+    </div>
+    <script>
+        function GreaterNumber(){
+
+        }
+    </script>
+    <br>
+    <div class="row mt-5">
+            <div class="col">Check Odd or Even</div>
+            <div class="col"><input type="text" id="number" placeholder="Enter the number"></div>
+            <div class="col"></div>
+            <div class="col"><button type="button" class="btn-primary" onclick="checkOddEven()">check</button></div>    
+    </div>
+            <div class="row mt-4"><b><div id="getResult"></div></b></div>
+
+        <script>
+            function checkOddEven(){
+                num=Number(document.getElementById('number').value);
+                if(num%2==0){
+                    result=num +"is even NUmber"
+                }
+                else{
+                    result=num + "is odd NUmber"
+                }
+                document.getElementById('getResult').innerHTML=result;
+
+            }
+            </script>
+
+</body>
+</html>

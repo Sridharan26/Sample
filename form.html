@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <form action="#" method="get">
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="password type pannu da" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password" placeholder="confirm password type pannu da" maxlength="8"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Opening Time</td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td id="1sri">Skills</td>
+                    <td>
+                        <input type="checkbox" name="skills" value="HTML">HTML
+                        <input type="checkbox" name="skills" value="CSS">CSS
+                        <input type="checkbox" name="skills" value="JS">JS
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Male
+                        <input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="Others">Others
+                        <input type="radio" name="gender" value="Sandy LGBTQ">Sandy LGBTQ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Volume</td>
+                    <td><input type="range"></td>
+                </tr>
+                <tr>
+                    <td>Feedback</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>Search</td>
+                    <td><input type="search"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" id="submitt"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <style>
+        #submitt{
+            background-color: blue;
+            border-radius: 15px;
+            border: none;
+            
+        }
+        #submitt:hover{
+            background-color: aqua;
+        }
+    </style>
+
+</body>
+
+</html>
